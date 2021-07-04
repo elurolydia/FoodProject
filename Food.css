@@ -157,26 +157,60 @@ input[placeholder="search your meal here"]{
 }
 
 #texas{
-    position: relative; 
+    position: relative;
     top: 310px;
     left: 1px;
-    width: 300px;
-    height: 55px;
+    width: 230px;
+    height: 60px;
     background-color: #FF3062;
     color: #ffffff;
-    padding-left: 40px;
+    padding-left: 35px;
+    line-height: 60px;
+
 }
 
 #texas_text{
-    position: relative;
-    left: 7px;
-    bottom: 12px;
+    position: absolute;
+    /* left: 7px; */
+    /* bottom: 15px; */ 
+    /* text-align: center; */
     font-family: Montserrat;
+    height: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 17.5px;
+    margin: 0px;
+}
+
+#food_mat{
+    position: absolute;
+    left: 51.5%;
+    top: 160px;
+    height: 580px;
+    width: 320px;
+    z-index: -1;
+}
+
+#leaf{
+    position: absolute;
+    top: 165px;
+    left: 48%;
+    width: 380px;
+    height: 240px;
+    transform: rotate(-20.98deg);
+}
+
+#plate{
+    position: absolute;
+    width: 800px;
+    height: 650px;
+    left: 38%;
+    top: 55px;
+    z-index: 2;
 }
 
 aside{
     background-color: #FF3062;
+    height: 100vh;
+    z-index: 1;
 }
