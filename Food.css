@@ -214,3 +214,29 @@ aside{
     height: 100vh;
     z-index: 1;
 }
+
+#top_aside{
+    position: relative;
+    left: 40%;
+    top: 35px;
+    width: 150px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50% ;
+
+}
+
+#avatar{
+    height: 40px;
+    width: 40px;
+}
+
+.small_box{
+    position: relative;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 2px solid rgba(255, 255, 255, 0.87);
+}
+
