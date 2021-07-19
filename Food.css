@@ -27,7 +27,7 @@ h1{
    font-family: Poppins;
    font-style: normal;
    font-weight: bold;
-   font-size: 2em;
+   font-size: 2.2vw;
    line-height: 45px;
    color: #FF3062;
    display: inline-block;
@@ -48,7 +48,7 @@ li {
     margin-left: 2px;;
     list-style: none;
     font-family: Poppins;
-    font-size: 1em;
+    font-size: 1.vw;
     font-weight: bolder;
     line-height: 30px;
 }
@@ -68,40 +68,41 @@ a:hover {
 
 h2{
     position: relative;
-    top: 165px;
+    top: 12vh;
     font-family: Poppins;
     font-weight: 1000;
     font-style: normal;
-    font-size: 6em;
-    line-height: 100px;
+    font-size: 6.5vw;
+    line-height: 85px;
+    width: 70vw;
     color: rgba(0, 0, 0, 0.05);
     margin: 0px;
 }
 
 #main_body{
     position: relative;
-    top: 130px;
+    top: 10vh;
     left: 8%;
 }
 
 #first_paragraph{
     height: 100px;
-    width: 500px;
+    width: 36vw;
     position: relative;
     font-family: Poppins;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 3vw;
     font-style: normal;
     line-height: 50px;
 }
 
 #first_text{
-    width: 480px;
+    width: 33vw;
     height: 100px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2vw;
     line-height: 27px;
     color: rgba(0, 0, 0, 0.57);
 }
@@ -116,7 +117,7 @@ h2{
 }
 
 input[type="text"]{
-    width: 400px;
+    width: 28vw;
     height: 45px;
     margin: 0px;
     border-radius: 8px 0px 0px 8px;
@@ -132,7 +133,7 @@ input[placeholder="search your meal here"]{
     font-weight: normal;
     color: rgba(0, 0, 0, 0.25);
     line-height: 30px;
-    font-size: 16px;
+    font-size: 1vw;
     position: relative;
     /* left: 10px; */
 }
@@ -147,7 +148,7 @@ input[placeholder="search your meal here"]{
 
 #search_button{
     margin: 0px;
-    width: 70px;
+    width: 5.7vw;
     height: 45px;
     background-color: #FF3062;
     border-radius: 8px 8px 8px 8px;
@@ -157,11 +158,12 @@ input[placeholder="search your meal here"]{
 }
 
 #texas{
-    position: relative;
-    top: 310px;
+    position: absolute;
+    /* top: 310px; */
+    bottom: 0vh;
     left: 1px;
     width: 230px;
-    height: 60px;
+    height: 8vh;
     background-color: #FF3062;
     color: #ffffff;
     padding-left: 35px;
@@ -184,10 +186,11 @@ input[placeholder="search your meal here"]{
 
 #food_mat{
     position: absolute;
-    left: 51.5%;
-    top: 160px;
-    height: 580px;
-    width: 320px;
+    left: 51%;
+    top: 120px;
+    height: 66vh;
+    /* width: 320px; */
+    width: 25vw;
     z-index: -1;
 }
 
@@ -195,17 +198,19 @@ input[placeholder="search your meal here"]{
     position: absolute;
     top: 165px;
     left: 48%;
-    width: 380px;
+    width: 400px;
     height: 240px;
     transform: rotate(-20.98deg);
 }
 
 #plate{
     position: absolute;
-    width: 800px;
-    height: 650px;
-    left: 38%;
-    top: 55px;
+    /* width: 800px;
+    height: 650px; */
+    width: 63%;
+    height: auto;
+    left: 33%;
+    top: 0px;
     z-index: 2;
 }
 
@@ -240,3 +245,35 @@ aside{
     border: 2px solid rgba(255, 255, 255, 0.87);
 }
 
+#blw_btn{
+    position: relative;
+    top: 80%;
+    left: 40%;
+    width: 100px;
+    
+}
+
+.below_button{
+    width: 60px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#first_arrow{
+    background-color: #FF3062;
+    color: #ffffff;
+}
+
+#second_arrow{
+    position: absolute;
+    /* left: 37.5%;
+    right: 33.33%;
+    top: 79.17%; */
+    /* bottom: -37.5%; */
+    /* border: 1.8px solid #FF3062; */
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    color:#FF3062;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
