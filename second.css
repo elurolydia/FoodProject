@@ -1,0 +1,76 @@
+#second_section{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(255, 48, 98, 0.25);
+}
+
+#circle1{
+    position: relative;
+    left: 12%;
+    top: 60px;
+}
+
+#SS1 > p{
+    position: relative;
+    width: 350px;
+    /* height: 90px; */
+    left: 8vw;
+    bottom: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    /* line-height: 45px; */
+    color: rgba(11, 3, 58, 0.81);
+}
+
+#SS1b > p {
+    position: relative;
+    top: 60px;
+    margin-left: 60px;
+    width: 450px;
+    height: 74px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.57);
+}
+
+#rectangle-section{
+    position: relative;
+    width: 100vh;
+    left: 6%;
+    margin-right: 0px;
+    top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto;
+}
+
+.rectangle{
+    position: relative;
+    left: 0px;
+    width: 29.5vw;
+    height: 330px;
+    margin-right: 20px;
+    /* margin-left: 10%; */
+
+}
+
+.img_note{
+    position: absolute;
+    /* bottom: 0px; */
+    top: 1400x;
+    height: 150px;
+    background-color: rgba(255, 48, 98, 0.75);
+    z-index: 2;
+}
