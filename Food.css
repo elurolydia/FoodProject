@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 body {
     background-color: rgb(252, 236, 239);
     margin: 0;
@@ -48,7 +52,7 @@ li {
     margin-left: 2px;;
     list-style: none;
     font-family: Poppins;
-    font-size: 1.vw;
+    font-size: 1vw;
     font-weight: bolder;
     line-height: 30px;
 }
@@ -68,7 +72,7 @@ a:hover {
 
 h2{
     position: relative;
-    top: 12vh;
+    top: 10vh;
     font-family: Poppins;
     font-weight: 1000;
     font-style: normal;
@@ -81,43 +85,50 @@ h2{
 
 #main_body{
     position: relative;
-    top: 10vh;
+    top: 3vh;
     left: 8%;
+    bottom: 10vh;
 }
 
 #first_paragraph{
-    height: 100px;
+    /* height: 100px; */
+    margin-bottom: 0px;
+    margin-top: 10vh;
     width: 36vw;
     position: relative;
     font-family: Poppins;
     font-weight: bolder;
     font-size: 3vw;
     font-style: normal;
-    line-height: 50px;
+    line-height: 5vh;
 }
 
 #first_text{
+    position: relative;
+    top: 2vh;
     width: 33vw;
     height: 100px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 1.2vw;
-    line-height: 27px;
+    line-height: 3.5vh;
     color: rgba(0, 0, 0, 0.57);
 }
 
 #search_box{
-    /* position: relative;
-    border-radius: 10px;
+    position: relative;
+    bottom: 5vh;
+    /*border-radius: 10px;
     width: 500px;
     background-color: #FFFFFF;*/
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     float: left;
+    margin-top: 2vh;
 }
 
 input[type="text"]{
-    width: 28vw;
+    width: 23.5vw;
     height: 45px;
     margin: 0px;
     border-radius: 8px 0px 0px 8px;
@@ -163,11 +174,11 @@ input[placeholder="search your meal here"]{
     bottom: 0vh;
     left: 1px;
     width: 230px;
-    height: 8vh;
+    height: 6vh;
     background-color: #FF3062;
     color: #ffffff;
     padding-left: 35px;
-    line-height: 60px;
+    line-height: 6vh;
 
 }
 
@@ -186,21 +197,21 @@ input[placeholder="search your meal here"]{
 
 #food_mat{
     position: absolute;
-    left: 51%;
+    left: 49%;
     top: 120px;
     height: 66vh;
     /* width: 320px; */
-    width: 25vw;
+    width: 27vw;
     z-index: -1;
 }
 
 #leaf{
     position: absolute;
-    top: 165px;
-    left: 48%;
-    width: 400px;
+    top: 19vh;
+    left: 45.5%;
+    width: 26vw;
     height: 240px;
-    transform: rotate(-20.98deg);
+    transform: rotate(-20deg);
 }
 
 #plate{
@@ -218,6 +229,7 @@ aside{
     background-color: #FF3062;
     height: 100vh;
     z-index: 1;
+    align-content: center;
 }
 
 #top_aside{
@@ -277,3 +289,5 @@ aside{
     color:#FF3062;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
+
+
